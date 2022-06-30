@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="fondo" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical instruments</title>
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.jpg">
+    <link rel="stylesheet" href="../estilos.css">
+    
+    <nav class="menu">
+        <a href="../index.html">
+            <label class="logo">Musical instruments</label>
+        </a>
+        
+        <ul class="menu_items">
+            <li class="Guitarra">
+                <a href="../catalogo/Guitarras.html">Guitarras</a>
+            </li>
+            <li>
+                <a href="../catalogo/Baterias.html">Baterias</a>
+            </li>
+            <li>
+                <a href="../catalogo/info de ventas.html">Info de compra</a>
+            </li>
+            <li>
+                <a href="#Nosotros">Nosotros</a>
+            </li>
+        </ul>
+    </nav>
+</head> 
+
+
+<body>
+</body>
+</html>
+
+<section class="tabla">
+    <form action="envio.php" id="Nosotros" >
+        <fieldset class="texto2">
+            <legend>info personal</legend>
+            <label for="Nombre">Nombre:</label>
+            <input type="text"  id ="Nombre" placeholder="Sebastian">
+            <br>
+            <label for="Email">Email</label>
+            <input type="Email" id="Email"placeholder=Tucorreo@gmail.com>
+        </fieldset>
+
+        
+    </form>
+</section>
+
+<fieldset>
+    <legend>info de venta por realizar</legend>
+    <label for="Guitarras">Guitarras Criolla</label>
+    <input type="checkbox"  id="Guitarras"value= Guitarra>
+    <br>
+    <label for="Guitarra acustica">Guitarra Acustica</label>
+    <input type="checkbox"  id="Guitarra acustica"value= Guitarra.acustica>
+    <br>
+    <label for="Guitarra Electrica">Guitarra Electrica</label>
+    <input type="checkbox"  id="Guitarra Electrica"value= Guitarra.Electrica>
+    <br>
+    <label for="Bateria Acustica">Bateria Acustica</label>
+    <input type="checkbox"  id="Bateria acustica"value= Bateria.acustica>
+    <br>
+    <label for="Bateria  Electrica">Bateria Electrica</label>
+    <input type="checkbox"  id="Bateria  Electrica"value= Bateria.Electrica>
+
+</fieldset>
+
+<fieldset>
+    <legend>info de envio</legend>
+    <label for="local">Retiras por el local</label>
+    <input type="radio" id="local" value="local " name="envio">
+    <br>
+    <label for="casa">Envio a domicilio</label>
+    <input type="radio" id="casa"value="casa" name="envio">
+    <br>
+    <label for="localidad">Provincia</label>
+    <select name="" id="localidad">
+        <option value="CABA">Ciudad de BS AS</option>
+        <option value="BSAS"> Provincia de BS AS</option>
+        <option value="interior">interior del pais</option>
+    </select>
+</fieldset>
+
+<label for="mensaje">Deje su mensaje </label>
+    <br>
+    <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+    <br>
+    <input type="reset" value="Cancelar">
+    <input type="submit"value=" Enviar">
+
+    <ul>
+        <li>
+            <a href="../index.html">Inicio</a>
+        </li>
+    </ul>
+
+
+    </body>
+</html>
